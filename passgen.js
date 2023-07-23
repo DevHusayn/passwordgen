@@ -23,7 +23,6 @@ copyText = () => {
     let text = document.getElementById("password");
     text.select();
     document.execCommand("copy");
-      //document.getElementById("copied").style.display ="block"; 
 
 if (passwordBox.value === ""){
  text= alert("Pls, Generate password a first");
@@ -35,11 +34,3 @@ refreshPage = () => {
     window.location.reload();
 
 }
-
-var type = new Typed("#changeText", {
-    strings: ['Strong Password', 'Developed by: DevHusayn'],
-    typeSpeed: 100,
-    backSpeed: 50,
-    backDelay: 1000,
-    loop: true,
-});
