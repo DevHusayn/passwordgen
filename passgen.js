@@ -1,3 +1,4 @@
+/*-------------------------Password Generator Section ------------------------*/
 const passwordBox = document.getElementById("password");
 const length = 12;
 const upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -19,6 +20,8 @@ createPassword = () => {
     }
     passwordBox.value = password;
 }
+
+/*-------------------------Copy Text Section ------------------------*/
 copyText = () => {
     let text = document.getElementById("password");
     text.select();
