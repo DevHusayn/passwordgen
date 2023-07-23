@@ -3,9 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="pssgen.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://use.fontaesome.com/8f1f059979.js"></script>
+
+
     <title>Password Generator</title>
 </head>
 <body>
-    <h1 class=""></h1>
+    <div class="container">
+        <div class="gen">
+            <h1>Generate a <br><span>Strong Password</span></h1>
+            <form>
+                <input type="text" placeholder="Password" id="password"  readonly>
+                <button class="btn" onclick="copyText()">copy</button>
+            </form>
+            <button class="btn2" onclick="createPassword()">Generate</button><button class="btn3" onclick="refreshPage()">Refresh</button>
+            
+
+            
+        </div>
+    
+    
+    </div>
+    <!--<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>-->
+<script src="passgen.js"></script>
+
 </body>
 </html>
