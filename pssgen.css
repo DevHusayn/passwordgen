@@ -15,6 +15,16 @@ h1{
     font-size:45px;
     margin-top: 20px;
 }
+marquee{
+    position:absolute;
+    color:white;
+    margin-top: 30px;
+    font-size:30px
+}
+marquee span{
+    border-bottom: 1px solid#019f55;
+}
+    
 span{
     padding-top:10px;
     color:#019f55;
